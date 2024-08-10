@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+    background-image: url(images/fon.webp);
+    margin: 0;
+    font-family: "Itim", cursive;
+}
+
+h1 {
+    margin: 0;
+    font-family: "Itim", cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D9D9D9;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logoimg {
+    width: 10%;
+    padding: 10px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+
+.footerimg {
+    display: flex;
+    justify-content: end;
+    width: 5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+}
+
+.nomer{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    font-family: "Itim", cursive;
+}
+.nomer>a{
+    color: brown;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    background: #fff0f0;
+    border: 2px solid;
+    border-radius: 0.75em;
+    transition: transform 0.15s;
+    transform-style: preserve-3d;
+    text-decoration: none;
+}
+
+.pustota {
+    width: 10%;
+}
+.zemla {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.elementy {
+    color: brown; 
+    background: #fff0f0; 
+    padding: 10px; 
+    font-size: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0px 1px 3px; 
+    -webkit-transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    
+    .elementy:hover { 
+    -webkit-transform: translate(10px);
+    transform: translate(10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5)
+}
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+
+.planet {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.feedback {
+    background-color: #D9D9D9;
+    padding: 50px;
+}
+
+h2 {
+    margin: 0;
+    font-family: "Offside", sans-serif;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+    color: antiquewhite;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: column;
+}
+input {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 250px;
+    height: 20px;
+    border: none;
+    padding: 4px;
+    outline: none;
+    background-color: antiquewhite;
+}
+textarea {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    border: none;
+    padding: 4px;
+    outline: none;
+    background-color: antiquewhite;      
+}    
+
+.logof {
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.a {
+    background-color: #D9D9D9;
+}
