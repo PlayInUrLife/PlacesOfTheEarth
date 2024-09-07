@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 body {
-    background-image: url(images/fon.webp);
+    background-image: url(images/coming.jpg);
+    background-size: cover;
     margin: 0;
     font-family: "Itim", cursive;
 }
@@ -36,23 +37,17 @@ a {
     margin-right: 30px;
 }
 
-.footerimg2 {
+.footerimg {
     display: flex;
     justify-content: end;
-    width: 2%;
+    width: 3%;
 
-}
-
-.footerimage {
-    display: flex;
-    justify-content: flex-start;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    align-items: flex-start;
     background-color: #D9D9D9;
 }
 
@@ -118,7 +113,7 @@ margin: auto;
 }
 
 .planet {
-    width: 35%;
+    width: 25%;
     display: flex;
     justify-content: space-between;
 }
@@ -178,9 +173,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 70px;
-    padding-left: 70px;
-    padding: 50px;
+    padding: 70px;
 
 }
 
@@ -192,64 +185,32 @@ textarea {
 }
 
 .logoimg {
-    display: flex;
-    justify-content: flex-end;
     width: 35%;
 }
 
 .top {
-    background-color: rgb(240, 248, 255);
     height: 25%;
 }
+
+.elementy2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(250, 235, 215, 0);
+    position: absolute;
+    z-index: 999;
+    width: 15%;
+    height: 100px;
+}
+ 
+ .soon {
+    width: 100%;
+    height: 100%;
+ }
 
 .ok {
     height: 25%;
 }
 
-.pustota2 {
-    height: 5%;
-}
-
-.elementy2 {
-    background-color: rgba(250, 235, 215, 0);
-    position: absolute;
-    z-index: 999;
-    width: 11%;
-    height: 100px;
-}
-
-footer {
-    display: flex;
-    align-items: end;
-}
-
-@keyframes planet {
-    0% {
-        margin-top: 50vh
-    }
-    25% {
-        transform: rotate(360deg);
-    }
-    50% {
-        transform: scale(1.2);
-    }
-    100% {
-        margin-top: 0
-    }
-}
-
 .yes {
     height: 25%;
 }
-
-.no {
-    height: 25%;
-}
-
-
-
-
-
-
-
-
